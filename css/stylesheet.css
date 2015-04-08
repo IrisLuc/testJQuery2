@@ -1,0 +1,166 @@
+body {
+	color: #000000;
+	margin: 0px;
+	font-size:100%;
+}
+
+div {
+	display: block;
+}
+
+textarea{
+	-webkit-appearance: textarea;
+	background-color: white;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	flex-direction: column;
+}
+
+ul {
+	margin: 20px;
+	list-style-type: none;
+	padding: 2px 0px;
+	overflow: auto;
+}
+ul li {
+	float: left;
+}
+ul li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 0px 5px;
+	margin: 0px 5px;
+	background-color: darkgrey;
+}
+ul li a:link{
+
+}
+ul li a:visited{
+	background-color: darkgrey;
+}
+ul li a:hover{
+	background-color: darkgreen;
+}
+ul li a:active{
+	background-color: darkgreen;
+}
+
+
+textarea[Attributes Style]{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	cursor: auto;
+}
+
+.container {
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+/*	overflow: auto;*/
+	position: absolute;
+	height: 95%;
+}
+
+.navcontainer{
+	overflow: auto;
+}
+
+.textareacontainer,
+.iframecontainer{
+	float: left;
+	height: 95%;
+	width: 50%;
+}
+
+.textarea,
+.iframe {
+	position: absolute;
+	top: 60px;
+	bottom: 0;
+	width: 50%;
+	margin: 1;
+	margin-top: 0;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	height: auto;
+}
+
+.headerText {
+	margin-top: 13px;
+	margin-left: 2.4%;
+	font-family: verdana;
+	font-size: 1em;
+}
+
+.submit {
+	font-size: 15px;
+	border-radius: 4px;
+	background-color: #555;
+	color: #fff;
+	border: 1px solid #555;
+	padding: 4px 15px;
+	width: auto;
+	cursor: pointer;
+}
+
+.textareawrapper{
+	top: 42px;
+	bottom: 30px;
+	position: absolute;
+	left: 2%;
+	width: 96.5%;
+	height: auto;
+}
+
+.iframewrapper {
+	top: 42px;
+	bottom: 30px;
+	position: absolute;
+	left: 2%;
+	width: 96.5%;
+	height: auto;
+}
+.hidden {
+	visibility: hidden;
+}
+
+.code_input {
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	font-family: consolas, "courier new", monospace;
+	font-size: 14px;
+	width: 99%;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+	padding: 0.5%;
+	resize: none;
+}
+.spacer{
+	clear: both;
+}
+
+#titelCode {
+	width: auto;
+	float: left;
+}
+
+#btnResultaat {
+	width: auto;
+	float: right;
+	margin-top: 8px;
+	margin-right: 2.4%;
+}
+
+#iframeResult,
+#iframeSource {
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	background-color: #fff;
+	width: 99%;
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+}
