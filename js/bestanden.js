@@ -5,9 +5,6 @@ var bestanden = [
 	{	naam: 'voorbeeld.js',
 		url: 'Bestanden/voorbeeld.js'
 	},
-	{	naam: 'voorbeeld.js',
-		url: 'Bestanden/voorbeeld.js'
-	},
 	{	naam: 'voorbeeld.css',
 	 	url: 'Bestanden/voorbeeld.css'
 	},
