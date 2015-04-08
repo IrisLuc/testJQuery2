@@ -1,15 +1,15 @@
 var bestanden = [
 	{	naam: 'voorbeeld.htm',
-		url: 'bestanden/voorbeeld.html'
+		url: 'Bestanden/voorbeeld.html'
 	},
 	{	naam: 'voorbeeld.js',
-		url: 'bestanden/voorbeeld.js'
+		url: 'Bestanden/voorbeeld.js'
 	},
 	{	naam: 'voorbeeld.js',
-		url: 'bestanden/voorbeeld.js'
+		url: 'Bestanden/voorbeeld.js'
 	},
 	{	naam: 'voorbeeld.css',
-	 	url: 'bestanden/voorbeeld.css'
+	 	url: 'Bestanden/voorbeeld.css'
 	},
 	{	naam: 'elise.jpg',
 	 	tag: 'img',
